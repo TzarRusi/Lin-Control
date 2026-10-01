@@ -1,0 +1,33 @@
+{
+  "lin_baud": 19200,
+  "position": "right",
+  "frames": {
+    "14": {
+      "signals": "00007800E4FF1F",
+      "protected_length": 6,
+      "data_id_list": [46, 212, 127, 42, 208, 123, 38, 204, 119, 34, 200, 115, 30, 196, 111, 26]
+    },
+    "1E": {
+      "signals": "0001FEFFFFFFFF",
+      "protected_length": 4,
+      "data_id_list": [15, 222, 178, 134, 90, 46, 253, 209, 165, 121, 77, 33, 240, 196, 152, 108]
+    },
+    "32": {
+      "signals": "50FEFFFFFFFFFF",
+      "protected_length": 3,
+      "data_id_list": [3, 232, 210, 188, 166, 144, 122, 100, 78, 56, 34, 12, 241, 219, 197, 175]
+    }
+  },
+  "left_signature": {
+    "id_14_data_5": 226,
+    "id_32_data_1_high_nibble": 176,
+    "required_consecutive_samples": 3
+  },
+  "inner_crc": {
+    "name": "CRC-8-H2F",
+    "polynomial": 47,
+    "initial": 255,
+    "xor_out": 255
+  }
+}
+
